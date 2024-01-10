@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Imagem</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagemP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagemM.png" type="image/png">
+        <img src="imagens/imagemG.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Incerindo Audio</h1>
+        <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+
+    <audio src="audio/Speak The Truth - Go By Ocean _ Ryan McCaffrey.mp3" controls></audio>
+    <!--sempre baixar ogg e mpeg = mp3, arquivos wav são muito grandes, utilizar em ultimo caso-->
+    <p>Seu navegador não é compatível com esse áudio <a href="audio/Speak The Truth - Go By Ocean _ Ryan McCaffrey.mp3">Clique aqui para baixar o mp3.</a></p>
+</body>
+</html>
